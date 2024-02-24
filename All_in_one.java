@@ -1,6 +1,7 @@
 
 
 
+import java.util.Random;
 import java.util.Scanner;
 class All_in_one{
     /**
@@ -24,6 +25,37 @@ class All_in_one{
         // while and do-while are very similar
         int i;
         while(i<=10){System.out.println(i);i++;}
+
+        //methods of string class
+        /*charAt
+        compareTo
+        concat
+        equals
+        equalsIgnoreCase
+        length
+        .replace(a,b)
+        .substring(a,b)
+        .toLowerCase  .lower() in python
+        .toUpperCase   .upper() in python
+         * 
+         */
+
+         //Learn about the java API's
+         //import java.util.*; * means all
+
+         Random random = new Random();
+         int rand_int = random.nextInt();
+         print(rand_int)
+
+         /*Learn about the math class
+          * like absolute value
+          exponential
+          power
+          square
+          */
+
+          //formatting output
+          //NumberFormat and DecimalFormat
 
         
     }
