@@ -23,7 +23,7 @@ class All_in_one{
 
         // while and do-while are very similar
         int i;
-        while(int i<=10){System.out.println(i);i++;}
+        while(i<=10){System.out.println(i);i++;}
 
         
     }
