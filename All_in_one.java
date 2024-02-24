@@ -45,7 +45,7 @@ class All_in_one{
 
          Random random = new Random();
          int rand_int = random.nextInt();
-         print(rand_int)
+         System.out.println(rand_int);
 
          /*Learn about the math class
           * like absolute value
