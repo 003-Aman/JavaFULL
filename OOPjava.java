@@ -48,5 +48,21 @@ class Student{
     public String printInfo(){
         return "the name of the student is"+this.name+"and the age of the student is"+this.age;
     }
+
+    Student(){
+        System.out.println("no parameter constructor called which will run first before every other method");
+    }
+}
+
+class Phulbari{String wardNo; int no_ofHouses;
+
+    Phulbari(String wardNo, int no_ofHouses){
+        this.wardNo = wardNo;
+        this.no_ofHouses = no_ofHouses;
+    }
+
+     public void print_info(){
+        System.out.println(this.wardNo + this.no_ofHouses);
+    }
 }
 
