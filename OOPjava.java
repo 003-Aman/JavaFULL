@@ -1,14 +1,20 @@
+class Pen{
+    String color;
+    String type; //ballpoint or gel pen
 
-import java.lang.Math;
-public class OOPjava {
+    public void write(){
+        System.out.println("the pen is writing something which is a function of the pen");
+
+    }
+}
+
+
+public class OOPjava{
     public static void main(String[] args) {
-        System.out.println("Methods ra OOP sikdim");
-        double power = Tenth(10);
-        System.out.println(power);
+        Pen pen1 = new Pen();
+        pen1.color = "red";
+        pen1.type = "ballpoint";
+        pen1.write();
     }
 
-    static double Tenth(int number){
-        return Math.pow(number,10);
-    }
-    
 }
