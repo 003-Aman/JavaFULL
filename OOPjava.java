@@ -55,6 +55,7 @@ class Student{
 }
 
 class Phulbari{String wardNo; int no_ofHouses;
+    //this is a constuctor now which is similar to __init__ in python
 
     Phulbari(String wardNo, int no_ofHouses){
         this.wardNo = wardNo;
