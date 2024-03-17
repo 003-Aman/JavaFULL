@@ -14,20 +14,20 @@ Override the 'toString'method to return a string representation of the sphere, i
 * */
 
 public class Sphere {
-    private double radius;
-    private String id;
+    private double radius;//java ma pailai kun kun attributes is going to be used vanera declare garinxa
+    private String id; //radius = ""
 
     // Constructor
     public Sphere(String id) {
-        this.id = id;
+        this.id = id;//self.id = id
     }
 
     // Getter and Setter for radius
     public double getRadius() {
-        return radius;
+        return radius; //return radius
     }
 
-    public void setRadius(double radius) {
+    public void setRadius(double radius) {//set radius method wants a arguement
         this.radius = radius;
     }
 

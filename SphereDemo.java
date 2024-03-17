@@ -20,7 +20,7 @@ public class SphereDemo {
         Scanner scanner = new Scanner(System.in);
 
         // Instantiate 3 spheres with IDs s0, s1, s2
-        Sphere s0 = new Sphere("s0");
+        Sphere s0 = new Sphere("s0"); //created an object using the sphere class s0 = Sphere("s0")
         Sphere s2 = new Sphere("s2");
         Sphere s3= new Sphere("s3");
 
