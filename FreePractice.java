@@ -47,7 +47,18 @@ public class FreePractice {
                 System.out.println("b is greater");
             }
         }
-        
+
+        String Name = input.nextLine();
+        switch(Name){
+            case "Aman":System.out.println("hero");
+            break;
+            case "Piyush":System.out.println("kheladi");
+            break;
+            case "Pramod":System.out.println("Zero");
+            break;
+            default:System.out.println("Ko ho tw?");
+        }
+
     }
     
 }
