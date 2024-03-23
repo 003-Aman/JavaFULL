@@ -1,7 +1,9 @@
+import java.util.*;
 public class PatternQ {
     public static void main(String[] args) {
-       int n = 10;
-       int m =10; 
+        Scanner input = new Scanner(System.in);
+        int n = 10;
+        int m =10; 
     
     //print a rectangle using loops
     for(int i =1;i<=n;i++){
@@ -33,10 +35,25 @@ public class PatternQ {
         }
         System.out.println();
     }
+// in python "*"*6 can be done but in java we cannot
+    //FUNCTIONS
+    /* returnType functionName(type arg1,type arg2){
+         operation
+    }
+     */
+    int num1 = input.nextInt();
+    int num2 = input.nextInt();
+    System.out.println(sum(num1,num2));
+    }
+
+
+    static int sum(int num1,int num2){
+        return num1+num2;
+
+    }
+    }
+    
 
     
-    
 
-    
-}
-}
+
