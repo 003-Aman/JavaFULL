@@ -59,6 +59,16 @@ public class FreePractice {
             default:System.out.println("Ko ho tw?");
         }
 
+        System.out.println("ROWS: ");
+        int row = input.nextInt();
+        System.out.println("COLUMN: ");
+        int col = input.nextInt();
+
+        for(int i=1;i<=row;i++){
+            for(int j=1;j<=col;j++){
+                System.out.print("*");}//notice how we print only here not println
+            System.out.println();}
+
     }
     
 }
